@@ -1,0 +1,77 @@
+/* Regular styles for the sidebar */
+.sidebar {
+  width: 20%;
+  /* Add any other styles you need */
+}
+
+/* Media query for screens smaller than 768px */
+@media (max-width: 767px) {
+  .sidebar {
+    width: 100%; /* Take up full width */
+  }
+}
+
+/* Media query for screens between 768px and 1023px */
+@media (min-width: 768px) and (max-width: 1023px) {
+  .sidebar {
+    width: 30%; /* Adjust width as needed */
+  }
+}
+
+/* Media query for screens larger than 1023px */
+@media (min-width: 1024px) {
+  .sidebar {
+    width: 20%; /* Reset width to original */
+  }
+}
+
+/* Regular styles for the sidebar */
+.right-sidebar {
+  width: 30%;
+  /* Add any other styles you need */
+}
+
+/* Media query for screens smaller than 768px */
+@media (max-width: 767px) {
+  .right-sidebar {
+    width: 100%; /* Take up full width */
+  }
+}
+
+/* Media query for screens between 768px and 1023px */
+@media (min-width: 768px) and (max-width: 1023px) {
+  .right-sidebar {
+    width: 40%; /* Adjust width as needed */
+  }
+}
+
+/* Media query for screens larger than 1023px */
+@media (min-width: 1024px) {
+  .right-sidebar {
+    width: 30%; /* Reset width to original */
+  }
+}
+
+/* Responsive CSS for Tweet and CreatePost Components */
+.tweet,
+.create-post {
+  width: 100%; /* Full width */
+}
+
+/* Adjustments for smaller screens */
+@media (max-width: 767px) {
+  .tweet .avatar,
+  .create-post .avatar {
+    width: 30px; /* Reduce avatar size */
+    height: 30px;
+  }
+}
+
+/* Adjustments for larger screens */
+@media (min-width: 1024px) {
+  .tweet .avatar,
+  .create-post .avatar {
+    width: 50px; /* Increase avatar size */
+    height: 50px;
+  }
+}
